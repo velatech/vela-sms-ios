@@ -120,10 +120,11 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   s.frameworks = "UIKit", "MessageUI"
+  s.dependency 'CryptoSwift'
 
 
 
-  s.library   = "CryptoSwift"
+  # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
 
