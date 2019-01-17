@@ -25,6 +25,7 @@
 		9219DCFE21F092D70057E739 /* swiftinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCED21F092D70057E739 /* swiftinternetplan.json */; };
 		9219DCFF21F092D70057E739 /* lccpackage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEE21F092D70057E739 /* lccpackage.json */; };
 		9219DD0021F092D70057E739 /* ipnxinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEF21F092D70057E739 /* ipnxinternetplan.json */; };
+		9219DD0221F0B4180057E739 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 9219DD0121F0B4180057E739 /* LICENCE */; };
 		921E8CB821EDEA290014B923 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E8CB721EDEA290014B923 /* extensions.swift */; };
 		921FF49521BC6BFD00FCA806 /* VelaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921FF48B21BC6BFD00FCA806 /* VelaSDK.framework */; };
 		921FF49A21BC6BFD00FCA806 /* VelaSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FF49921BC6BFD00FCA806 /* VelaSDKTests.swift */; };
@@ -74,6 +75,7 @@
 		9219DCED21F092D70057E739 /* swiftinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swiftinternetplan.json; sourceTree = "<group>"; };
 		9219DCEE21F092D70057E739 /* lccpackage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lccpackage.json; sourceTree = "<group>"; };
 		9219DCEF21F092D70057E739 /* ipnxinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ipnxinternetplan.json; sourceTree = "<group>"; };
+		9219DD0121F0B4180057E739 /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
 		921E8CB721EDEA290014B923 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		921FF48B21BC6BFD00FCA806 /* VelaSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VelaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921FF48E21BC6BFD00FCA806 /* VelaSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VelaSDK.h; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		921FF48121BC6BFD00FCA806 = {
 			isa = PBXGroup;
 			children = (
+				9219DD0121F0B4180057E739 /* LICENCE */,
 				921FF48D21BC6BFD00FCA806 /* VelaSDK */,
 				921FF49821BC6BFD00FCA806 /* VelaSDKTests */,
 				921FF48C21BC6BFD00FCA806 /* Products */,
@@ -307,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9219DD0221F0B4180057E739 /* LICENCE in Resources */,
 				9219DCF121F092D70057E739 /* dstvbundle.json in Resources */,
 				9219DCF921F092D70057E739 /* gotvbundle.json in Resources */,
 				9219DCF721F092D70057E739 /* ekedcpackage.json in Resources */,
