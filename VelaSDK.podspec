@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   #
 
 #s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENCE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   #
 
 #s.platform     = :ios
-  s.platform     = :ios, "12.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/velatech/vela-sms-ios/tree/master/VelaSDK", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/velatech/vela-sms-ios.git", :tag => "master" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,8 +92,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Resources", "VelaSDK/*.{h,m,swift}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -120,6 +120,8 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   s.frameworks = "UIKit", "MessageUI"
+  s.dependency = "CryptoSwift"
+
 
 
   # s.library   = "iconv"

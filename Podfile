@@ -1,5 +1,5 @@
 
-platform :ios, '12.0'
+platform :ios, '8.0'
 target 'VelaSDK' do
   use_frameworks!
 
