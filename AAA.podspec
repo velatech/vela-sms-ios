@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint VelaSDK.podspec' to ensure this is a
+#  Be sure to run `pod spec lint AAA.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,21 +15,19 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "VelaSDK"
+  s.name         = "AAA"
   s.version      = "0.0.1"
-  s.summary      = "An Offline Transaction API using SMS Service"
+  s.summary      = "A short description of AAA."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-    s.description  = <<-DESC
-    VelaSDK
+  s.description  = <<-DESC
                    DESC
-                   
 
-  s.homepage     = "https://github.com/velatech/vela-sms-ios"
+  s.homepage     = "http://EXAMPLE/AAA"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -40,8 +38,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-#s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = "MIT (example)"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,8 +63,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-#s.platform     = :ios
-  s.platform     = :ios, "12.0"
+  # s.platform     = :ios
+  # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -81,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/velatech/vela-sms-ios/tree/master/VelaSDK", :tag => "#{s.version}" }
+  s.source       = { :git => "http://EXAMPLE/AAA.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -119,8 +117,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "UIKit", "MessageUI"
-
+  # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
