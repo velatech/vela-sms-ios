@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "VelaSDK"
   s.version      = "0.0.1"
-  s.summary      = "An Offline Transaction API using SMS Service"
+  s.summary      = "An Offline Transactional API using SMS Service"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
     s.description  = <<-DESC
-    VelaSDK
+    An Offline Transactional API using SMS Service
                    DESC
                    
 

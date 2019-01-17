@@ -12,7 +12,7 @@
 FOUNDATION_EXPORT double VelaSDKVersionNumber = 1.0;
 
 //! Project version string for VelaSDK.
-FOUNDATION_EXPORT const unsigned char VelaSDKVersionString[] = "1.0";
+FOUNDATION_EXPORT const unsigned char VelaSDKVersionString[] = "0.0.1";
 
 // In this header, you should import all the public headers of your framework using statements like #import <VelaSDK/PublicHeader.h>
 
