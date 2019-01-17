@@ -6,7 +6,7 @@
 Follow the instructions below to get started with `VelaOffline` iOS SDK  
 
 
-### Initialize/Users/heeleeaz/Documents/Xcode/VelaSDK/VelaSDK.podspec
+### Initialize
 
 For this step, you will need to set your SMS Sort Code, Shared Service Code and SMS Encryption Key for the Vela Control System. To Setup, Initialize the SDK as shown below:  
 
