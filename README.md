@@ -6,6 +6,15 @@
 Follow the instructions below to get started with `VelaOffline` iOS SDK  
 
 
+### Installation
+
+#### CocoaPods
+
+[CocoaPod](https://cocoapods.org/) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate VelaSDK into your Xcode project using CocoaPods, specify it in your Podfile:
+    
+    pod 'VelaSDK', '~> 1.0'
+
+
 ### Initialize
 
 For this step, you will need to set your SMS Sort Code, Shared Service Code and SMS Encryption Key for the Vela Control System. To Setup, Initialize the SDK as shown below:  
