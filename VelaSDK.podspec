@@ -123,7 +123,7 @@ Pod::Spec.new do |s|
 
 
 
-  # s.library   = "iconv"
+  s.library   = "CryptoSwift"
   # s.libraries = "iconv", "xml2"
 
 
