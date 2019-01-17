@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class VelaAPI{
+open class VelaAPI{
     public init(){}
     
     open func smsAPIShortCode(isLive: Bool=false) -> String {
@@ -48,7 +48,7 @@ public enum VelaMessageDefault {
 
 public func initVela(api: VelaAPI = VelaAPI(), isLive: Bool = false){
     SMS_API_SHORT_CODE = api.smsAPIShortCode(isLive: isLive)
-    SMS_API_SHORT_CODE = api.smsAPITextPrefix()
+    SMS_API_TEXT_PREFIX = api.smsAPITextPrefix()
     SMS_ENCRYPTION_KEY = api.smsEncryptionKey()
     CLIENT_APP_ID = try? api.clientAppID()
     MERCHANT_SHARED_CODE = api.merchantSharedCode()
