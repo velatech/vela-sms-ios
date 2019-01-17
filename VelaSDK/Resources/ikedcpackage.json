@@ -1,0 +1,24 @@
+[
+    {
+        "productId": "10088",
+        "amount": 0,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "IKEDC  PREPAID TOP UP",
+        "code": "UB159",
+        "fixedAmount": false,
+        "merchantCode": "BIL113"
+    },
+    {
+        "productId": "10089",
+        "amount": 0,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "IKEDC  POSTPAID TOP UP",
+        "code": "UB160",
+        "fixedAmount": false,
+        "merchantCode": "BIL113"
+    }
+]

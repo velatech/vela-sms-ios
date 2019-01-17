@@ -1,0 +1,24 @@
+[
+    {
+        "productId": "10086",
+        "amount": 0,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "EKEDC POSTPAID TOPUP",
+        "code": "UB158",
+        "fixedAmount": false,
+        "merchantCode": "BIL112"
+    },
+    {
+        "productId": "10085",
+        "amount": 0,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 900,
+        "name": "EKEDC PREPAID TOPUP",
+        "code": "UB157",
+        "fixedAmount": false,
+        "merchantCode": "BIL112"
+    }
+]

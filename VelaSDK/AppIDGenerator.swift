@@ -6,8 +6,6 @@
 //  Copyright © 2019 Igbalajobi Elias. All rights reserved.
 //
 
-import Foundation
-
 internal class AppIDGenerator{
     private let base10Key = [
     "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16",

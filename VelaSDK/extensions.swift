@@ -6,8 +6,6 @@
 //  Copyright © 2019 Igbalajobi Elias. All rights reserved.
 //
 
-import Foundation
-
 extension String {
     func index(from: Int) -> Index {
         return self.index(startIndex, offsetBy: from)

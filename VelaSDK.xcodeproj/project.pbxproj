@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		302D67E5B4282F6E60BFEE5E /* Pods_VelaSDK_VelaSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE675EC927BFDCA2CF9A68B8 /* Pods_VelaSDK_VelaSDKTests.framework */; };
+		9219DCF021F092D70057E739 /* glodatabundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCDF21F092D70057E739 /* glodatabundle.json */; };
+		9219DCF121F092D70057E739 /* dstvbundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE021F092D70057E739 /* dstvbundle.json */; };
+		9219DCF221F092D70057E739 /* mtndatabundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE121F092D70057E739 /* mtndatabundle.json */; };
+		9219DCF321F092D70057E739 /* airtimebundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE221F092D70057E739 /* airtimebundle.json */; };
+		9219DCF421F092D70057E739 /* firstaxpackage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE321F092D70057E739 /* firstaxpackage.json */; };
+		9219DCF521F092D70057E739 /* airteldatabundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE421F092D70057E739 /* airteldatabundle.json */; };
+		9219DCF621F092D70057E739 /* ikedcpackage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE521F092D70057E739 /* ikedcpackage.json */; };
+		9219DCF721F092D70057E739 /* ekedcpackage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE621F092D70057E739 /* ekedcpackage.json */; };
+		9219DCF821F092D70057E739 /* 9mobiledatabundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE721F092D70057E739 /* 9mobiledatabundle.json */; };
+		9219DCF921F092D70057E739 /* gotvbundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE821F092D70057E739 /* gotvbundle.json */; };
+		9219DCFA21F092D70057E739 /* spectranetinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE921F092D70057E739 /* spectranetinternetplan.json */; };
+		9219DCFB21F092D70057E739 /* startimesbundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEA21F092D70057E739 /* startimesbundle.json */; };
+		9219DCFC21F092D70057E739 /* smileinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEB21F092D70057E739 /* smileinternetplan.json */; };
+		9219DCFD21F092D70057E739 /* mtnhynetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEC21F092D70057E739 /* mtnhynetplan.json */; };
+		9219DCFE21F092D70057E739 /* swiftinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCED21F092D70057E739 /* swiftinternetplan.json */; };
+		9219DCFF21F092D70057E739 /* lccpackage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEE21F092D70057E739 /* lccpackage.json */; };
+		9219DD0021F092D70057E739 /* ipnxinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEF21F092D70057E739 /* ipnxinternetplan.json */; };
 		921E8CB821EDEA290014B923 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E8CB721EDEA290014B923 /* extensions.swift */; };
 		921FF49521BC6BFD00FCA806 /* VelaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921FF48B21BC6BFD00FCA806 /* VelaSDK.framework */; };
 		921FF49A21BC6BFD00FCA806 /* VelaSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FF49921BC6BFD00FCA806 /* VelaSDKTests.swift */; };
@@ -40,6 +57,23 @@
 		53061F2CC7D1329D188AB294 /* Pods_VelaSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VelaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A22028AB8C4E7D9165FE1C6 /* Pods-VelaSDK-VelaSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VelaSDK-VelaSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VelaSDK-VelaSDKTests/Pods-VelaSDK-VelaSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		812478958F6C43D2DD3E16F8 /* Pods-VelaSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VelaSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VelaSDKTests/Pods-VelaSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9219DCDF21F092D70057E739 /* glodatabundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = glodatabundle.json; sourceTree = "<group>"; };
+		9219DCE021F092D70057E739 /* dstvbundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dstvbundle.json; sourceTree = "<group>"; };
+		9219DCE121F092D70057E739 /* mtndatabundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mtndatabundle.json; sourceTree = "<group>"; };
+		9219DCE221F092D70057E739 /* airtimebundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airtimebundle.json; sourceTree = "<group>"; };
+		9219DCE321F092D70057E739 /* firstaxpackage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = firstaxpackage.json; sourceTree = "<group>"; };
+		9219DCE421F092D70057E739 /* airteldatabundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airteldatabundle.json; sourceTree = "<group>"; };
+		9219DCE521F092D70057E739 /* ikedcpackage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ikedcpackage.json; sourceTree = "<group>"; };
+		9219DCE621F092D70057E739 /* ekedcpackage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ekedcpackage.json; sourceTree = "<group>"; };
+		9219DCE721F092D70057E739 /* 9mobiledatabundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9mobiledatabundle.json; sourceTree = "<group>"; };
+		9219DCE821F092D70057E739 /* gotvbundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gotvbundle.json; sourceTree = "<group>"; };
+		9219DCE921F092D70057E739 /* spectranetinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spectranetinternetplan.json; sourceTree = "<group>"; };
+		9219DCEA21F092D70057E739 /* startimesbundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = startimesbundle.json; sourceTree = "<group>"; };
+		9219DCEB21F092D70057E739 /* smileinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = smileinternetplan.json; sourceTree = "<group>"; };
+		9219DCEC21F092D70057E739 /* mtnhynetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mtnhynetplan.json; sourceTree = "<group>"; };
+		9219DCED21F092D70057E739 /* swiftinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swiftinternetplan.json; sourceTree = "<group>"; };
+		9219DCEE21F092D70057E739 /* lccpackage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lccpackage.json; sourceTree = "<group>"; };
+		9219DCEF21F092D70057E739 /* ipnxinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ipnxinternetplan.json; sourceTree = "<group>"; };
 		921E8CB721EDEA290014B923 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		921FF48B21BC6BFD00FCA806 /* VelaSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VelaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921FF48E21BC6BFD00FCA806 /* VelaSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VelaSDK.h; sourceTree = "<group>"; };
@@ -95,6 +129,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9219DCDE21F092AA0057E739 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9219DCE721F092D70057E739 /* 9mobiledatabundle.json */,
+				9219DCE421F092D70057E739 /* airteldatabundle.json */,
+				9219DCE221F092D70057E739 /* airtimebundle.json */,
+				9219DCE021F092D70057E739 /* dstvbundle.json */,
+				9219DCE621F092D70057E739 /* ekedcpackage.json */,
+				9219DCE321F092D70057E739 /* firstaxpackage.json */,
+				9219DCDF21F092D70057E739 /* glodatabundle.json */,
+				9219DCE821F092D70057E739 /* gotvbundle.json */,
+				9219DCE521F092D70057E739 /* ikedcpackage.json */,
+				9219DCEF21F092D70057E739 /* ipnxinternetplan.json */,
+				9219DCEE21F092D70057E739 /* lccpackage.json */,
+				9219DCE121F092D70057E739 /* mtndatabundle.json */,
+				9219DCEC21F092D70057E739 /* mtnhynetplan.json */,
+				9219DCEB21F092D70057E739 /* smileinternetplan.json */,
+				9219DCE921F092D70057E739 /* spectranetinternetplan.json */,
+				9219DCEA21F092D70057E739 /* startimesbundle.json */,
+				9219DCED21F092D70057E739 /* swiftinternetplan.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		921FF48121BC6BFD00FCA806 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +177,7 @@
 		921FF48D21BC6BFD00FCA806 /* VelaSDK */ = {
 			isa = PBXGroup;
 			children = (
+				9219DCDE21F092AA0057E739 /* Resources */,
 				921FF48E21BC6BFD00FCA806 /* VelaSDK.h */,
 				921FF48F21BC6BFD00FCA806 /* Info.plist */,
 				921FF4A521BC6C3100FCA806 /* VelaAPI.swift */,
@@ -248,6 +307,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9219DCF121F092D70057E739 /* dstvbundle.json in Resources */,
+				9219DCF921F092D70057E739 /* gotvbundle.json in Resources */,
+				9219DCF721F092D70057E739 /* ekedcpackage.json in Resources */,
+				9219DCF421F092D70057E739 /* firstaxpackage.json in Resources */,
+				9219DCF221F092D70057E739 /* mtndatabundle.json in Resources */,
+				9219DCFF21F092D70057E739 /* lccpackage.json in Resources */,
+				9219DCFC21F092D70057E739 /* smileinternetplan.json in Resources */,
+				9219DCF821F092D70057E739 /* 9mobiledatabundle.json in Resources */,
+				9219DD0021F092D70057E739 /* ipnxinternetplan.json in Resources */,
+				9219DCFE21F092D70057E739 /* swiftinternetplan.json in Resources */,
+				9219DCF021F092D70057E739 /* glodatabundle.json in Resources */,
+				9219DCF521F092D70057E739 /* airteldatabundle.json in Resources */,
+				9219DCFA21F092D70057E739 /* spectranetinternetplan.json in Resources */,
+				9219DCF321F092D70057E739 /* airtimebundle.json in Resources */,
+				9219DCFB21F092D70057E739 /* startimesbundle.json in Resources */,
+				9219DCF621F092D70057E739 /* ikedcpackage.json in Resources */,
+				9219DCFD21F092D70057E739 /* mtnhynetplan.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

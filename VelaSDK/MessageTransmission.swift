@@ -6,7 +6,6 @@
 //  Copyright © 2018 Igbalajobi Elias. All rights reserved.
 //
 
-import Foundation
 import CryptoSwift
 
 internal class MessageTransmission{

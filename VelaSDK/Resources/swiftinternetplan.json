@@ -1,0 +1,13 @@
+[
+    {
+        "productId": "10247",
+        "amount": 0,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "SWIFT TOP UP",
+        "code": "IS210",
+        "fixedAmount": false,
+        "merchantCode": "BIL126"
+    }
+]

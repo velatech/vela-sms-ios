@@ -11,7 +11,7 @@ import XCTest
 
 class VelaSDKTests: XCTestCase {
     var appIdGenerator: AppIDGenerator!
-    var accountCreationStage1: AccountCreationStage1SMSAPI!
+    var accountCreationStage1: AccountCreationSMSAPI!
 
     override func setUp() {
         super.setUp()
@@ -19,7 +19,7 @@ class VelaSDKTests: XCTestCase {
         
         initVela(api: API(), isLive: true)
         appIdGenerator = AppIDGenerator()
-        accountCreationStage1 = AccountCreationStage1SMSAPI(data: AccountCreationStage1SMSAPI.Data())
+        accountCreationStage1 = AccountCreationSMSAPI(data: AccountCreationSMSAPI.Data())
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -36,19 +36,21 @@ class VelaSDKTests: XCTestCase {
     }
     
     func testSMSAPI(){
-        let data =  AccountCreationStage1SMSAPI.Data();
-        data.acctNo = "2054121348"
-        data.bank = "044"
-        data.deviceImei = "0123456789012345"
-        data.dialingCode = "234"
-        data.password = "1233333"
-        data.phone = "8029059420"
-        data.pin = "1234"
-        accountCreationStage1.data = data
+
         
-        let message  = try? accountCreationStage1.createEncryptedMessage()
-        print(message)
-        XCTAssertNoThrow(message)
+        let data = CashTransferSMSAPI.Data()
+        data.accountNo = "1234567890"
+        data.amount = 10000
+        data.bank = "1234"
+        data.pin = Bank.UBA_BANK
+        data.sourceBankAccountId = "123456"
+        data.userId = "12345678"
+        
+        let cashTransferSMSApi = CashTransferSMSAPI(data: data)
+        cashTransferSMSApi.createEncryptedMessage()
+        
+        
+        print(cashTransferSMSApi.validateConfirmationCode(confirmationCode: "123456"))
         
         
         

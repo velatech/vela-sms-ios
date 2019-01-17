@@ -6,11 +6,10 @@
 //  Copyright © 2018 Igbalajobi Elias. All rights reserved.
 //
 
-import Foundation
 
 fileprivate let IOS_DEVICE_CODE = "1"
 
-public class AccountCreationStage1SMSAPI: SMSMessagePipeline<AccountCreationStage1SMSAPI.Data>{
+public class AccountCreationSMSAPI: SMSMessagePipeline<AccountCreationSMSAPI.Data>{
     private let SERVICE_CODE = "10"
     
     public init(data: Data) {
@@ -33,9 +32,9 @@ public class AccountCreationStage1SMSAPI: SMSMessagePipeline<AccountCreationStag
     }
 }
 
-public class AccountCreationStage2SMSAPI: SMSMessagePipeline<AccountCreationStage2SMSAPI.Data>{
+public class AccountCreationConfirmationSMSAPI: SMSMessagePipeline<AccountCreationConfirmationSMSAPI.Data>{
     private let SERVICE_CODE = "11"
-    public var accountCreationStage1SMSAPI: AccountCreationStage1SMSAPI?
+    public var accountCreationStage1SMSAPI: AccountCreationSMSAPI?
     
     public init(){
         super.init(serviceCode: SERVICE_CODE)
@@ -188,7 +187,7 @@ public class NewBankAccountSMSAPI: SMSMessagePipeline<NewBankAccountSMSAPI.Data>
     override public func getOTPServiceCode() -> String? {return "34"}
 }
 
-public class PinUpdatePipeline: SMSMessagePipeline<PinUpdatePipeline.Data>{
+public class PinUpdateSMSAPI: SMSMessagePipeline<PinUpdateSMSAPI.Data>{
     private let SERVICE_CODE = "32"
     
     public init(data: Data) {
@@ -203,7 +202,7 @@ public class PinUpdatePipeline: SMSMessagePipeline<PinUpdatePipeline.Data>{
     }
 }
 
-public class PasswordUpdatePipeline: SMSMessagePipeline<PasswordUpdatePipeline.Data>{
+public class PasswordUpdateSMSAPI: SMSMessagePipeline<PasswordUpdateSMSAPI.Data>{
     private let SERVICE_CODE = "31"
     
     public init(data: Data) {

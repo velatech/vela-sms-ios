@@ -1,0 +1,46 @@
+[
+    {
+        "productId": "10078",
+        "amount": 200,
+        "fee": 0,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "9MOBILE 150 MB data bundle",
+        "code": "MD152",
+        "fixedAmount": true,
+        "merchantCode": "BIL111"
+    },
+    {
+        "productId": "10079",
+        "amount": 1200,
+        "fee": 0,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "9MOBILE 1.5GB data bundle",
+        "code": "MD154",
+        "fixedAmount": true,
+        "merchantCode": "BIL111"
+    },
+    {
+        "productId": "10081",
+        "amount": 2000,
+        "fee": 0,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "9MOBILE 2.5GB data bundle",
+        "code": "MD155",
+        "fixedAmount": true,
+        "merchantCode": "BIL111"
+    },
+    {
+        "productId": "10082",
+        "amount": 3000,
+        "fee": 0,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "9MOBILE 4GB data bundle",
+        "code": "MD156",
+        "fixedAmount": true,
+        "merchantCode": "BIL111"
+    }
+]

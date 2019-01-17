@@ -6,8 +6,6 @@
 //  Copyright © 2018 Igbalajobi Elias. All rights reserved.
 //
 
-import Foundation
-
 open class VelaAPI{
     public init(){}
     

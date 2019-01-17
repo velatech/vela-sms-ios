@@ -6,9 +6,7 @@
 //  Copyright © 2018 Igbalajobi Elias. All rights reserved.
 //
 
-import Foundation
 import MessageUI
-
 
 public class SMSMessageComposer {
     private var textMessageRecipients = [String]()

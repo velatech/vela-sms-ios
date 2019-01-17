@@ -6,7 +6,6 @@
 //  Copyright © 2018 Igbalajobi Elias. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public class SMSMessagePipeline<T: Codable>: SMSMessageProtocol{
@@ -31,13 +30,13 @@ public class SMSMessagePipeline<T: Codable>: SMSMessageProtocol{
         return vcsRequest
     }
     
-    public func createEncryptedMessage() throws -> String {
+    public func createEncryptedMessage() -> String {
         let messageTransmission = MessageTransmission.getInstance(secretKey: SMS_ENCRYPTION_KEY)
         
         self.stamp = generatedStamp()
         let text = createCompressedMessage(stamp: stamp)
         let iv = SMSMessagePipeline.generateIVString()
-        let encryptedMessage =  try messageTransmission.aesEncrypt(text: text, iv: iv)
+        let encryptedMessage =  try! messageTransmission.aesEncrypt(text: text, iv: iv)
         
         let vcsRequest = toVCSDataStructure(encryptedText: encryptedMessage)
         return SMS_API_TEXT_PREFIX + " " + vcsRequest
@@ -70,6 +69,23 @@ public class SMSMessagePipeline<T: Codable>: SMSMessageProtocol{
         return getMessageStamp().substring(to: 6)
     }
     
+    public func getOTPRequestCode() -> String{
+        let stamp = getMessageStamp()
+        return stamp.substring(with: 3..<stamp.count-3)
+    }
+    
+    public func validateConfirmationCode(confirmationCode: String) -> ConfirmationMessageResult{
+        if confirmationCode.elementsEqual(getSuccessCode()){
+            return ConfirmationMessageResult.REQUEST_SUCCESSFUL
+        } else if confirmationCode.elementsEqual(getFailedCode()){
+            return ConfirmationMessageResult.REQUEST_FAILED
+        }else if confirmationCode.elementsEqual(getOTPRequestCode()){
+            return ConfirmationMessageResult.OTP_REQUIRED
+        }else{
+            return ConfirmationMessageResult.UNRESOLVED
+        }
+    }
+    
     public class func callNumber(phoneNumber: String) {
         if let phoneCallURL:NSURL = NSURL(string:"tel://\(phoneNumber)") {
             let application:UIApplication = UIApplication.shared
@@ -87,6 +103,14 @@ public class SMSMessagePipeline<T: Codable>: SMSMessageProtocol{
         let currentTimeString = "\(currentTime)"
         return currentTimeString
     }
+    
+}
+
+public enum ConfirmationMessageResult{
+    case REQUEST_SUCCESSFUL
+    case REQUEST_FAILED
+    case OTP_REQUIRED
+    case UNRESOLVED
 }
 
 public var deviceAppImei: Int {

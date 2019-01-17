@@ -1,0 +1,13 @@
+[
+    {
+        "productId": "10245",
+        "amount": 0,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "TOP UP ACCOUNT",
+        "code": "IS211",
+        "fixedAmount": false,
+        "merchantCode": "BIL125"
+    }
+]

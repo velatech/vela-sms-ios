@@ -6,7 +6,6 @@
 //  Copyright © 2019 Igbalajobi Elias. All rights reserved.
 //
 
-import Foundation
 import MessageUI
 
 open class SMSUIViewController: UIViewController, MFMessageComposeViewControllerDelegate{
@@ -22,8 +21,7 @@ open class SMSUIViewController: UIViewController, MFMessageComposeViewController
     }
     
     open func sendRequest<T: Codable>(message: SMSMessagePipeline<T>){
-        let message = try? message.createEncryptedMessage()
-        sendRequest(encryptedMessage: message ?? "")
+        sendRequest(encryptedMessage: message.createEncryptedMessage())
     }
     
     open func smsRequestSent(controller: MFMessageComposeViewController, result: MessageComposeResult){}

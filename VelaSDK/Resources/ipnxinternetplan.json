@@ -1,0 +1,13 @@
+[
+    {
+        "productId": "10249",
+        "amount": 6300,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "ipNX Family Plan",
+        "code": "IS213",
+        "fixedAmount": true,
+        "merchantCode": "BIL129"
+    }
+]

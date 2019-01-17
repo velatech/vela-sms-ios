@@ -1,0 +1,46 @@
+[
+    {
+        "productId": "10042",
+        "amount": 400,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "GOTV LIGHT",
+        "code": "CB185",
+        "fixedAmount": true,
+        "merchantCode": "BIL122"
+    },
+    {
+        "productId": "10043",
+        "amount": 1250,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "GOTV VALUE",
+        "code": "CB186",
+        "fixedAmount": true,
+        "merchantCode": "BIL122"
+    },
+    {
+        "productId": "10044",
+        "amount": 1900,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "GOTV PLUS",
+        "code": "CB187",
+        "fixedAmount": true,
+        "merchantCode": "BIL122"
+    },
+    {
+        "productId": "10045",
+        "amount": 3800,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "GOTV MAX",
+        "code": "CB188",
+        "fixedAmount": true,
+        "merchantCode": "BIL122"
+    }
+]

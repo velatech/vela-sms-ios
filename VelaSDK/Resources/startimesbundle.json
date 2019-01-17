@@ -1,0 +1,57 @@
+[
+    {
+        "productId": "10047",
+        "amount": 60,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "NOVA - One Day",
+        "code": "CB189",
+        "fixedAmount": true,
+        "merchantCode": "BIL123"
+    },
+    {
+        "productId": "10048",
+        "amount": 300,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "NOVA - One Week",
+        "code": "CB190",
+        "fixedAmount": true,
+        "merchantCode": "BIL123"
+    },
+    {
+        "productId": "10049",
+        "amount": 900,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "NOVA - One Month",
+        "code": "CB191",
+        "fixedAmount": true,
+        "merchantCode": "BIL123"
+    },
+    {
+        "productId": "10051",
+        "amount": 90,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "BASIC - One Day",
+        "code": "CB192",
+        "fixedAmount": true,
+        "merchantCode": "BIL123"
+    },
+    {
+        "productId": "10052",
+        "amount": 450,
+        "fee": 100,
+        "maximumAmount": 0,
+        "minimumAmount": 0,
+        "name": "BASIC - One Week",
+        "code": "CB193",
+        "fixedAmount": true,
+        "merchantCode": "BIL123"
+    }
+]
