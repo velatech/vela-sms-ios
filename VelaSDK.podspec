@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VelaSDK"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "An Offline Transactional API using SMS Service"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "VelaSDK"
+  s.source_files  = "VelaSDK/*.{h,m,swift,json}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

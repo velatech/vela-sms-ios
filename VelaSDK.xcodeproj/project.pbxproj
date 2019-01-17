@@ -131,30 +131,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9219DCDE21F092AA0057E739 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9219DCE721F092D70057E739 /* 9mobiledatabundle.json */,
-				9219DCE421F092D70057E739 /* airteldatabundle.json */,
-				9219DCE221F092D70057E739 /* airtimebundle.json */,
-				9219DCE021F092D70057E739 /* dstvbundle.json */,
-				9219DCE621F092D70057E739 /* ekedcpackage.json */,
-				9219DCE321F092D70057E739 /* firstaxpackage.json */,
-				9219DCDF21F092D70057E739 /* glodatabundle.json */,
-				9219DCE821F092D70057E739 /* gotvbundle.json */,
-				9219DCE521F092D70057E739 /* ikedcpackage.json */,
-				9219DCEF21F092D70057E739 /* ipnxinternetplan.json */,
-				9219DCEE21F092D70057E739 /* lccpackage.json */,
-				9219DCE121F092D70057E739 /* mtndatabundle.json */,
-				9219DCEC21F092D70057E739 /* mtnhynetplan.json */,
-				9219DCEB21F092D70057E739 /* smileinternetplan.json */,
-				9219DCE921F092D70057E739 /* spectranetinternetplan.json */,
-				9219DCEA21F092D70057E739 /* startimesbundle.json */,
-				9219DCED21F092D70057E739 /* swiftinternetplan.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		921FF48121BC6BFD00FCA806 = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +156,7 @@
 		921FF48D21BC6BFD00FCA806 /* VelaSDK */ = {
 			isa = PBXGroup;
 			children = (
-				9219DCDE21F092AA0057E739 /* Resources */,
+				927D093021F0F88B00E6CF10 /* Resource */,
 				921FF48E21BC6BFD00FCA806 /* VelaSDK.h */,
 				921FF48F21BC6BFD00FCA806 /* Info.plist */,
 				921FF4A521BC6C3100FCA806 /* VelaAPI.swift */,
@@ -203,6 +179,30 @@
 				921FF49B21BC6BFD00FCA806 /* Info.plist */,
 			);
 			path = VelaSDKTests;
+			sourceTree = "<group>";
+		};
+		927D093021F0F88B00E6CF10 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9219DCE721F092D70057E739 /* 9mobiledatabundle.json */,
+				9219DCE421F092D70057E739 /* airteldatabundle.json */,
+				9219DCE221F092D70057E739 /* airtimebundle.json */,
+				9219DCE021F092D70057E739 /* dstvbundle.json */,
+				9219DCE621F092D70057E739 /* ekedcpackage.json */,
+				9219DCE321F092D70057E739 /* firstaxpackage.json */,
+				9219DCDF21F092D70057E739 /* glodatabundle.json */,
+				9219DCE821F092D70057E739 /* gotvbundle.json */,
+				9219DCE521F092D70057E739 /* ikedcpackage.json */,
+				9219DCEF21F092D70057E739 /* ipnxinternetplan.json */,
+				9219DCEE21F092D70057E739 /* lccpackage.json */,
+				9219DCE121F092D70057E739 /* mtndatabundle.json */,
+				9219DCEC21F092D70057E739 /* mtnhynetplan.json */,
+				9219DCEB21F092D70057E739 /* smileinternetplan.json */,
+				9219DCE921F092D70057E739 /* spectranetinternetplan.json */,
+				9219DCEA21F092D70057E739 /* startimesbundle.json */,
+				9219DCED21F092D70057E739 /* swiftinternetplan.json */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		E0FC7CD5475A83188796F745 /* Frameworks */ = {
