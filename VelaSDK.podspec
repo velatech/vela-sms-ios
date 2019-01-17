@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Resources", "VelaSDK/*.{h,m,swift}"
+  s.source_files  = "VelaSDK/Resources", "VelaSDK/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -120,7 +120,6 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   s.frameworks = "UIKit", "MessageUI"
-  s.dependency = "CryptoSwift"
 
 
 
