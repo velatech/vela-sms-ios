@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VelaSDK"
-  s.version      = "0.0.1"
+  s.version      = "1.0.2"
   s.summary      = "An Offline Transactional API using SMS Service"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/velatech/vela-sms-ios.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/velatech/vela-sms-ios.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "VelaSDK/Resources", "VelaSDK/*.{h,m,swift}"
+  s.source_files  = "VelaSDK"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
