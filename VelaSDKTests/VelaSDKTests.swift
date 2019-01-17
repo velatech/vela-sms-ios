@@ -50,6 +50,9 @@ class VelaSDKTests: XCTestCase {
         print(message)
         XCTAssertNoThrow(message)
         
+        
+        
+        
     }
 
     func testPerformanceExample() {

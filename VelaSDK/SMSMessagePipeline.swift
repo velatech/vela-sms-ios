@@ -36,7 +36,6 @@ public class SMSMessagePipeline<T: Codable>: SMSMessageProtocol{
         
         self.stamp = generatedStamp()
         let text = createCompressedMessage(stamp: stamp)
-        print(text)
         let iv = SMSMessagePipeline.generateIVString()
         let encryptedMessage =  try messageTransmission.aesEncrypt(text: text, iv: iv)
         
