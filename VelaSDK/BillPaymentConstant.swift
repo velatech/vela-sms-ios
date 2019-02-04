@@ -151,13 +151,13 @@ fileprivate func decodeJSONToObject<T: Codable>(filename: String) throws -> T{
 }
 
 public struct BillProductData: Codable {
-    var name: String!
-    var amount: Int!
-    var fee: Int!
-    var productId: String!
-    var fixedAmount: Bool!
-    var maximumAmount: Int
-    var minimumAmount: Int
+    public var name: String!
+    public var amount: Int!
+    public var fee: Int!
+    public var productId: String!
+    public var fixedAmount: Bool!
+    public var maximumAmount: Int
+    public var minimumAmount: Int
 }
 
 public struct Bank{
