@@ -31,8 +31,8 @@ class VelaSDKTests: XCTestCase {
     }
 
     func testUserIdGenerator() {
-        let value = try? appIdGenerator.generateUniqueId(deviceImei: "3543130448382850", smsShortCode: "12345001")
-        XCTAssertEqual(value!, "ZhD4mcSoCYo1")
+        let value = try? appIdGenerator.generateUniqueId(deviceImei: "1113323729575167", smsShortCode: "12345001")
+        XCTAssertEqual(value!, "BDWbTvpa5CYo1")
     }
     
     func testSMSAPI(){

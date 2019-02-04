@@ -52,6 +52,8 @@ public func initVela(api: VelaAPI = VelaAPI(), isLive: Bool = false){
     MERCHANT_SHARED_CODE = api.merchantSharedCode()
     
     APPMessages.MESSAGING_APP_NOT_AVAILABLE = api.messageDefault(type: .MESSAGE_APP_NOT_AVAILABLE)
+    APPMessages.SMS_AWARE_NOTIFICATION = api.messageDefault(type: .SMS_AWARE_NOTIFICATION)
+    APPMessages.SMS_SEND_FAILED = api.messageDefault(type: .SMS_SEND_FAILED)
 }
 
 
