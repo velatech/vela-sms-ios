@@ -34,7 +34,7 @@ public class SMSMessageComposer {
         } else {
             let showErrorMessage = onFailed()
             if showErrorMessage{
-                let errorAlert = UIAlertController(title: "Alert", message: APPMessages.MESSAGING_APP_NOT_AVAILABLE, preferredStyle: .alert)
+                let errorAlert = UIAlertController(title: "Alert", message: APPMessages.messagingAppNotAvailable, preferredStyle: .alert)
                 
                 errorAlert.addAction(UIAlertAction(title: "OK", style: .default, handler:{ action in
                     if action.style == .default{

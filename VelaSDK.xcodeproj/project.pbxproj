@@ -8,37 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		302D67E5B4282F6E60BFEE5E /* Pods_VelaSDK_VelaSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE675EC927BFDCA2CF9A68B8 /* Pods_VelaSDK_VelaSDKTests.framework */; };
-		9219DCF021F092D70057E739 /* glodatabundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCDF21F092D70057E739 /* glodatabundle.json */; };
-		9219DCF121F092D70057E739 /* dstvbundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE021F092D70057E739 /* dstvbundle.json */; };
-		9219DCF221F092D70057E739 /* mtndatabundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE121F092D70057E739 /* mtndatabundle.json */; };
-		9219DCF321F092D70057E739 /* airtimebundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE221F092D70057E739 /* airtimebundle.json */; };
-		9219DCF421F092D70057E739 /* firstaxpackage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE321F092D70057E739 /* firstaxpackage.json */; };
-		9219DCF521F092D70057E739 /* airteldatabundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE421F092D70057E739 /* airteldatabundle.json */; };
-		9219DCF621F092D70057E739 /* ikedcpackage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE521F092D70057E739 /* ikedcpackage.json */; };
-		9219DCF721F092D70057E739 /* ekedcpackage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE621F092D70057E739 /* ekedcpackage.json */; };
-		9219DCF821F092D70057E739 /* 9mobiledatabundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE721F092D70057E739 /* 9mobiledatabundle.json */; };
-		9219DCF921F092D70057E739 /* gotvbundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE821F092D70057E739 /* gotvbundle.json */; };
-		9219DCFA21F092D70057E739 /* spectranetinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCE921F092D70057E739 /* spectranetinternetplan.json */; };
-		9219DCFB21F092D70057E739 /* startimesbundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEA21F092D70057E739 /* startimesbundle.json */; };
-		9219DCFC21F092D70057E739 /* smileinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEB21F092D70057E739 /* smileinternetplan.json */; };
-		9219DCFD21F092D70057E739 /* mtnhynetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEC21F092D70057E739 /* mtnhynetplan.json */; };
-		9219DCFE21F092D70057E739 /* swiftinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCED21F092D70057E739 /* swiftinternetplan.json */; };
-		9219DCFF21F092D70057E739 /* lccpackage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEE21F092D70057E739 /* lccpackage.json */; };
-		9219DD0021F092D70057E739 /* ipnxinternetplan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9219DCEF21F092D70057E739 /* ipnxinternetplan.json */; };
 		9219DD0221F0B4180057E739 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 9219DD0121F0B4180057E739 /* LICENCE */; };
-		921E8CB821EDEA290014B923 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E8CB721EDEA290014B923 /* extensions.swift */; };
 		921FF49521BC6BFD00FCA806 /* VelaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921FF48B21BC6BFD00FCA806 /* VelaSDK.framework */; };
 		921FF49A21BC6BFD00FCA806 /* VelaSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FF49921BC6BFD00FCA806 /* VelaSDKTests.swift */; };
 		921FF49C21BC6BFD00FCA806 /* VelaSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 921FF48E21BC6BFD00FCA806 /* VelaSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		921FF4A621BC6C3100FCA806 /* VelaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FF4A521BC6C3100FCA806 /* VelaAPI.swift */; };
-		921FF4B321BD6DFC00FCA806 /* SMSMessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FF4B221BD6DFC00FCA806 /* SMSMessageComposer.swift */; };
-		92282CE721EF79F2006E9DD3 /* SMSUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92282CE621EF79F2006E9DD3 /* SMSUIViewController.swift */; };
-		9274D8F121BD76BC0060783F /* SMSMessagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9274D8F021BD76BC0060783F /* SMSMessagePipeline.swift */; };
-		927707E621BFA3B900445B48 /* MessageTransmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927707E521BFA3B900445B48 /* MessageTransmission.swift */; };
-		927707EA21BFB2DB00445B48 /* SMSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927707E921BFB2DB00445B48 /* SMSAPI.swift */; };
-		927707EE21BFD05900445B48 /* BillPaymentConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927707ED21BFD05900445B48 /* BillPaymentConstant.swift */; };
-		92B4464421EF99F30017AF1F /* AppIDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4464321EF99F30017AF1F /* AppIDGenerator.swift */; };
+		92C0863F2248FF8700BEA257 /* VCSPayloadInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C086322248FF8500BEA257 /* VCSPayloadInputController.swift */; };
+		92C086402248FF8700BEA257 /* VCSSMSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C086332248FF8500BEA257 /* VCSSMSAPI.swift */; };
+		92C086412248FF8700BEA257 /* VCSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C086342248FF8500BEA257 /* VCSUtil.swift */; };
+		92C086422248FF8700BEA257 /* SMSMessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C086352248FF8500BEA257 /* SMSMessageComposer.swift */; };
+		92C086432248FF8700BEA257 /* VCSSMSMessagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C086362248FF8600BEA257 /* VCSSMSMessagePipeline.swift */; };
+		92C086442248FF8700BEA257 /* VCSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C086372248FF8600BEA257 /* VCSAPI.swift */; };
+		92C086452248FF8700BEA257 /* VCSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C086382248FF8600BEA257 /* VCSExtensions.swift */; };
+		92C086462248FF8700BEA257 /* VCSSMSUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C086392248FF8600BEA257 /* VCSSMSUIViewController.swift */; };
+		92C086472248FF8700BEA257 /* VCSSMSResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0863A2248FF8600BEA257 /* VCSSMSResponseHandler.swift */; };
+		92C086482248FF8700BEA257 /* SMSMessageTransmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0863B2248FF8600BEA257 /* SMSMessageTransmission.swift */; };
+		92C086492248FF8700BEA257 /* VCSOfflineUserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0863C2248FF8600BEA257 /* VCSOfflineUserPreference.swift */; };
+		92C0864A2248FF8700BEA257 /* AppIDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0863D2248FF8700BEA257 /* AppIDGenerator.swift */; };
+		92C0864B2248FF8700BEA257 /* VCSPayloadInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C0863E2248FF8700BEA257 /* VCSPayloadInputController.xib */; };
 		BB29D78FD46C4BFF331B36AF /* Pods_VelaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53061F2CC7D1329D188AB294 /* Pods_VelaSDK.framework */; };
+		C83DFC20D601CDB9C6B40F40 /* Pods_VelaSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7137A2637A14762B13D757 /* Pods_VelaSDKTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,39 +46,26 @@
 		53061F2CC7D1329D188AB294 /* Pods_VelaSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VelaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A22028AB8C4E7D9165FE1C6 /* Pods-VelaSDK-VelaSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VelaSDK-VelaSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VelaSDK-VelaSDKTests/Pods-VelaSDK-VelaSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		812478958F6C43D2DD3E16F8 /* Pods-VelaSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VelaSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VelaSDKTests/Pods-VelaSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9219DCDF21F092D70057E739 /* glodatabundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = glodatabundle.json; sourceTree = "<group>"; };
-		9219DCE021F092D70057E739 /* dstvbundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dstvbundle.json; sourceTree = "<group>"; };
-		9219DCE121F092D70057E739 /* mtndatabundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mtndatabundle.json; sourceTree = "<group>"; };
-		9219DCE221F092D70057E739 /* airtimebundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airtimebundle.json; sourceTree = "<group>"; };
-		9219DCE321F092D70057E739 /* firstaxpackage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = firstaxpackage.json; sourceTree = "<group>"; };
-		9219DCE421F092D70057E739 /* airteldatabundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airteldatabundle.json; sourceTree = "<group>"; };
-		9219DCE521F092D70057E739 /* ikedcpackage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ikedcpackage.json; sourceTree = "<group>"; };
-		9219DCE621F092D70057E739 /* ekedcpackage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ekedcpackage.json; sourceTree = "<group>"; };
-		9219DCE721F092D70057E739 /* 9mobiledatabundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9mobiledatabundle.json; sourceTree = "<group>"; };
-		9219DCE821F092D70057E739 /* gotvbundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gotvbundle.json; sourceTree = "<group>"; };
-		9219DCE921F092D70057E739 /* spectranetinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spectranetinternetplan.json; sourceTree = "<group>"; };
-		9219DCEA21F092D70057E739 /* startimesbundle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = startimesbundle.json; sourceTree = "<group>"; };
-		9219DCEB21F092D70057E739 /* smileinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = smileinternetplan.json; sourceTree = "<group>"; };
-		9219DCEC21F092D70057E739 /* mtnhynetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mtnhynetplan.json; sourceTree = "<group>"; };
-		9219DCED21F092D70057E739 /* swiftinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swiftinternetplan.json; sourceTree = "<group>"; };
-		9219DCEE21F092D70057E739 /* lccpackage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lccpackage.json; sourceTree = "<group>"; };
-		9219DCEF21F092D70057E739 /* ipnxinternetplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ipnxinternetplan.json; sourceTree = "<group>"; };
 		9219DD0121F0B4180057E739 /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
-		921E8CB721EDEA290014B923 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		921FF48B21BC6BFD00FCA806 /* VelaSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VelaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921FF48E21BC6BFD00FCA806 /* VelaSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VelaSDK.h; sourceTree = "<group>"; };
 		921FF48F21BC6BFD00FCA806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		921FF49421BC6BFD00FCA806 /* VelaSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelaSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		921FF49921BC6BFD00FCA806 /* VelaSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelaSDKTests.swift; sourceTree = "<group>"; };
 		921FF49B21BC6BFD00FCA806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		921FF4A521BC6C3100FCA806 /* VelaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelaAPI.swift; sourceTree = "<group>"; };
-		921FF4B221BD6DFC00FCA806 /* SMSMessageComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSMessageComposer.swift; sourceTree = "<group>"; };
-		92282CE621EF79F2006E9DD3 /* SMSUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSUIViewController.swift; sourceTree = "<group>"; };
-		9274D8F021BD76BC0060783F /* SMSMessagePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSMessagePipeline.swift; sourceTree = "<group>"; };
-		927707E521BFA3B900445B48 /* MessageTransmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTransmission.swift; sourceTree = "<group>"; };
-		927707E921BFB2DB00445B48 /* SMSAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSAPI.swift; sourceTree = "<group>"; };
-		927707ED21BFD05900445B48 /* BillPaymentConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPaymentConstant.swift; sourceTree = "<group>"; };
-		92B4464321EF99F30017AF1F /* AppIDGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIDGenerator.swift; sourceTree = "<group>"; };
+		92C086322248FF8500BEA257 /* VCSPayloadInputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSPayloadInputController.swift; sourceTree = "<group>"; };
+		92C086332248FF8500BEA257 /* VCSSMSAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSSMSAPI.swift; sourceTree = "<group>"; };
+		92C086342248FF8500BEA257 /* VCSUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSUtil.swift; sourceTree = "<group>"; };
+		92C086352248FF8500BEA257 /* SMSMessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSMessageComposer.swift; sourceTree = "<group>"; };
+		92C086362248FF8600BEA257 /* VCSSMSMessagePipeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSSMSMessagePipeline.swift; sourceTree = "<group>"; };
+		92C086372248FF8600BEA257 /* VCSAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSAPI.swift; sourceTree = "<group>"; };
+		92C086382248FF8600BEA257 /* VCSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSExtensions.swift; sourceTree = "<group>"; };
+		92C086392248FF8600BEA257 /* VCSSMSUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSSMSUIViewController.swift; sourceTree = "<group>"; };
+		92C0863A2248FF8600BEA257 /* VCSSMSResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSSMSResponseHandler.swift; sourceTree = "<group>"; };
+		92C0863B2248FF8600BEA257 /* SMSMessageTransmission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSMessageTransmission.swift; sourceTree = "<group>"; };
+		92C0863C2248FF8600BEA257 /* VCSOfflineUserPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSOfflineUserPreference.swift; sourceTree = "<group>"; };
+		92C0863D2248FF8700BEA257 /* AppIDGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIDGenerator.swift; sourceTree = "<group>"; };
+		92C0863E2248FF8700BEA257 /* VCSPayloadInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCSPayloadInputController.xib; sourceTree = "<group>"; };
 		92DDCB0221F074C90019A41B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE675EC927BFDCA2CF9A68B8 /* Pods_VelaSDK_VelaSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VelaSDK_VelaSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26EABA5B3FB6CBEE0EE1D8E /* Pods-VelaSDK-VelaSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VelaSDK-VelaSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VelaSDK-VelaSDKTests/Pods-VelaSDK-VelaSDKTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +87,7 @@
 			files = (
 				921FF49521BC6BFD00FCA806 /* VelaSDK.framework in Frameworks */,
 				302D67E5B4282F6E60BFEE5E /* Pods_VelaSDK_VelaSDKTests.framework in Frameworks */,
+				C83DFC20D601CDB9C6B40F40 /* Pods_VelaSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,18 +132,21 @@
 		921FF48D21BC6BFD00FCA806 /* VelaSDK */ = {
 			isa = PBXGroup;
 			children = (
-				927D093021F0F88B00E6CF10 /* Resource */,
+				92C0863D2248FF8700BEA257 /* AppIDGenerator.swift */,
+				92C086352248FF8500BEA257 /* SMSMessageComposer.swift */,
+				92C0863B2248FF8600BEA257 /* SMSMessageTransmission.swift */,
+				92C086372248FF8600BEA257 /* VCSAPI.swift */,
+				92C086382248FF8600BEA257 /* VCSExtensions.swift */,
+				92C0863C2248FF8600BEA257 /* VCSOfflineUserPreference.swift */,
+				92C086322248FF8500BEA257 /* VCSPayloadInputController.swift */,
+				92C0863E2248FF8700BEA257 /* VCSPayloadInputController.xib */,
+				92C086332248FF8500BEA257 /* VCSSMSAPI.swift */,
+				92C086362248FF8600BEA257 /* VCSSMSMessagePipeline.swift */,
+				92C0863A2248FF8600BEA257 /* VCSSMSResponseHandler.swift */,
+				92C086392248FF8600BEA257 /* VCSSMSUIViewController.swift */,
+				92C086342248FF8500BEA257 /* VCSUtil.swift */,
 				921FF48E21BC6BFD00FCA806 /* VelaSDK.h */,
 				921FF48F21BC6BFD00FCA806 /* Info.plist */,
-				921FF4A521BC6C3100FCA806 /* VelaAPI.swift */,
-				927707E921BFB2DB00445B48 /* SMSAPI.swift */,
-				921FF4B221BD6DFC00FCA806 /* SMSMessageComposer.swift */,
-				9274D8F021BD76BC0060783F /* SMSMessagePipeline.swift */,
-				927707E521BFA3B900445B48 /* MessageTransmission.swift */,
-				927707ED21BFD05900445B48 /* BillPaymentConstant.swift */,
-				921E8CB721EDEA290014B923 /* extensions.swift */,
-				92282CE621EF79F2006E9DD3 /* SMSUIViewController.swift */,
-				92B4464321EF99F30017AF1F /* AppIDGenerator.swift */,
 			);
 			path = VelaSDK;
 			sourceTree = "<group>";
@@ -179,30 +158,6 @@
 				921FF49B21BC6BFD00FCA806 /* Info.plist */,
 			);
 			path = VelaSDKTests;
-			sourceTree = "<group>";
-		};
-		927D093021F0F88B00E6CF10 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				9219DCE721F092D70057E739 /* 9mobiledatabundle.json */,
-				9219DCE421F092D70057E739 /* airteldatabundle.json */,
-				9219DCE221F092D70057E739 /* airtimebundle.json */,
-				9219DCE021F092D70057E739 /* dstvbundle.json */,
-				9219DCE621F092D70057E739 /* ekedcpackage.json */,
-				9219DCE321F092D70057E739 /* firstaxpackage.json */,
-				9219DCDF21F092D70057E739 /* glodatabundle.json */,
-				9219DCE821F092D70057E739 /* gotvbundle.json */,
-				9219DCE521F092D70057E739 /* ikedcpackage.json */,
-				9219DCEF21F092D70057E739 /* ipnxinternetplan.json */,
-				9219DCEE21F092D70057E739 /* lccpackage.json */,
-				9219DCE121F092D70057E739 /* mtndatabundle.json */,
-				9219DCEC21F092D70057E739 /* mtnhynetplan.json */,
-				9219DCEB21F092D70057E739 /* smileinternetplan.json */,
-				9219DCE921F092D70057E739 /* spectranetinternetplan.json */,
-				9219DCEA21F092D70057E739 /* startimesbundle.json */,
-				9219DCED21F092D70057E739 /* swiftinternetplan.json */,
-			);
-			name = Resource;
 			sourceTree = "<group>";
 		};
 		E0FC7CD5475A83188796F745 /* Frameworks */ = {
@@ -280,7 +235,7 @@
 				TargetAttributes = {
 					921FF48A21BC6BFD00FCA806 = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1010;
 					};
 					921FF49321BC6BFD00FCA806 = {
 						CreatedOnToolsVersion = 10.0;
@@ -310,24 +265,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C0864B2248FF8700BEA257 /* VCSPayloadInputController.xib in Resources */,
 				9219DD0221F0B4180057E739 /* LICENCE in Resources */,
-				9219DCF121F092D70057E739 /* dstvbundle.json in Resources */,
-				9219DCF921F092D70057E739 /* gotvbundle.json in Resources */,
-				9219DCF721F092D70057E739 /* ekedcpackage.json in Resources */,
-				9219DCF421F092D70057E739 /* firstaxpackage.json in Resources */,
-				9219DCF221F092D70057E739 /* mtndatabundle.json in Resources */,
-				9219DCFF21F092D70057E739 /* lccpackage.json in Resources */,
-				9219DCFC21F092D70057E739 /* smileinternetplan.json in Resources */,
-				9219DCF821F092D70057E739 /* 9mobiledatabundle.json in Resources */,
-				9219DD0021F092D70057E739 /* ipnxinternetplan.json in Resources */,
-				9219DCFE21F092D70057E739 /* swiftinternetplan.json in Resources */,
-				9219DCF021F092D70057E739 /* glodatabundle.json in Resources */,
-				9219DCF521F092D70057E739 /* airteldatabundle.json in Resources */,
-				9219DCFA21F092D70057E739 /* spectranetinternetplan.json in Resources */,
-				9219DCF321F092D70057E739 /* airtimebundle.json in Resources */,
-				9219DCFB21F092D70057E739 /* startimesbundle.json in Resources */,
-				9219DCF621F092D70057E739 /* ikedcpackage.json in Resources */,
-				9219DCFD21F092D70057E739 /* mtnhynetplan.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +309,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VelaSDK-VelaSDKTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VelaSDKTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,16 +322,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VelaSDK-VelaSDKTests/Pods-VelaSDK-VelaSDKTests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-VelaSDKTests/Pods-VelaSDKTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VelaSDK-VelaSDKTests/Pods-VelaSDK-VelaSDKTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VelaSDKTests/Pods-VelaSDKTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -402,15 +345,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927707E621BFA3B900445B48 /* MessageTransmission.swift in Sources */,
-				921FF4B321BD6DFC00FCA806 /* SMSMessageComposer.swift in Sources */,
-				9274D8F121BD76BC0060783F /* SMSMessagePipeline.swift in Sources */,
-				92B4464421EF99F30017AF1F /* AppIDGenerator.swift in Sources */,
-				92282CE721EF79F2006E9DD3 /* SMSUIViewController.swift in Sources */,
-				921E8CB821EDEA290014B923 /* extensions.swift in Sources */,
-				927707EA21BFB2DB00445B48 /* SMSAPI.swift in Sources */,
-				921FF4A621BC6C3100FCA806 /* VelaAPI.swift in Sources */,
-				927707EE21BFD05900445B48 /* BillPaymentConstant.swift in Sources */,
+				92C086452248FF8700BEA257 /* VCSExtensions.swift in Sources */,
+				92C086482248FF8700BEA257 /* SMSMessageTransmission.swift in Sources */,
+				92C0863F2248FF8700BEA257 /* VCSPayloadInputController.swift in Sources */,
+				92C086492248FF8700BEA257 /* VCSOfflineUserPreference.swift in Sources */,
+				92C0864A2248FF8700BEA257 /* AppIDGenerator.swift in Sources */,
+				92C086442248FF8700BEA257 /* VCSAPI.swift in Sources */,
+				92C086462248FF8700BEA257 /* VCSSMSUIViewController.swift in Sources */,
+				92C086402248FF8700BEA257 /* VCSSMSAPI.swift in Sources */,
+				92C086412248FF8700BEA257 /* VCSUtil.swift in Sources */,
+				92C086472248FF8700BEA257 /* VCSSMSResponseHandler.swift in Sources */,
+				92C086422248FF8700BEA257 /* SMSMessageComposer.swift in Sources */,
+				92C086432248FF8700BEA257 /* VCSSMSMessagePipeline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +515,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = VelaSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -598,7 +544,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = VelaSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,9 +560,8 @@
 		};
 		921FF4A321BC6BFD00FCA806 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A22028AB8C4E7D9165FE1C6 /* Pods-VelaSDK-VelaSDKTests.debug.xcconfig */;
+			baseConfigurationReference = 812478958F6C43D2DD3E16F8 /* Pods-VelaSDKTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F6EB72G8E4;
 				INFOPLIST_FILE = VelaSDKTests/Info.plist;
@@ -634,9 +579,8 @@
 		};
 		921FF4A421BC6BFD00FCA806 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C26EABA5B3FB6CBEE0EE1D8E /* Pods-VelaSDK-VelaSDKTests.release.xcconfig */;
+			baseConfigurationReference = 47F722D0AAA68DDEE136F880 /* Pods-VelaSDKTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F6EB72G8E4;
 				INFOPLIST_FILE = VelaSDKTests/Info.plist;

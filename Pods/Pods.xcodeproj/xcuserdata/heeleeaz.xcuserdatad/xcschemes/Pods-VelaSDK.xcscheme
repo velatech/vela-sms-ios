@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A11219694E448B72087C80B04A6DE179"
+               BlueprintIdentifier = "4A9149E5E26121EAE4AB84C2D0D19ACA"
                BuildableName = "Pods_VelaSDK.framework"
                BlueprintName = "Pods-VelaSDK"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A11219694E448B72087C80B04A6DE179"
+            BlueprintIdentifier = "4A9149E5E26121EAE4AB84C2D0D19ACA"
             BuildableName = "Pods_VelaSDK.framework"
             BlueprintName = "Pods-VelaSDK"
             ReferencedContainer = "container:Pods.xcodeproj">
