@@ -38,20 +38,20 @@ class VelaSDKTests: XCTestCase {
     func testSMSAPI(){
 
         
-        let data = CashTransferSMSAPI.Data()
-        data.accountNo = "1234567890"
-        data.amount = 10000
-        data.bank = "1234"
-        data.pin = Bank.UBA_BANK
-        data.sourceBankAccountId = "123456"
-        data.userId = "12345678"
-        
-        let cashTransferSMSApi = CashTransferSMSAPI(data: data)
-        cashTransferSMSApi.createEncryptedMessage()
-        
-        
-        print(cashTransferSMSApi.validateConfirmationCode(confirmationCode: "123456"))
-        
+//        let data = CashTransferSMSAPI.Data()
+//        data.accountNo = "1234567890"
+//        data.amount = 10000
+//        data.bank = "1234"
+//        data.pin = Bank.UBA_BANK
+//        data.sourceBankAccountId = "123456"
+//        data.userId = "12345678"
+//        
+//        let cashTransferSMSApi = CashTransferSMSAPI(data: data)
+//        cashTransferSMSApi.createEncryptedMessage()
+//        
+//        
+//        print(cashTransferSMSApi.validateConfirmationCode(confirmationCode: "123456"))
+//        
         
         
         

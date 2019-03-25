@@ -66,5 +66,3 @@ internal enum AppIDGeneratorError: Error {
     case invalidImei(message: String)
     case invalidSmsShortCode(message: String)
 }
-
-
